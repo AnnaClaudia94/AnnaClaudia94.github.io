@@ -1,0 +1,45 @@
+h1 {
+	text-align: center;
+	border-radius: 300px;
+	color: white;
+	background-color: #FF6699;
+	width: 100%;
+	font-family: courier;
+}
+body {
+	background-color: #CCFFFF;
+	background-image: url("background.jpeg"); 
+	text-align: center;
+}
+body {
+	text-align: center;
+	font-family: courier;
+}
+
+
+
+#social-buttons button {
+	color: white;
+}
+.btn-twitter {
+	background-color: #FF6699;
+	border-color: #CCFFFF;
+}
+.btn-facebook {
+	background-color: #FF6699; 
+	border-color: #CCFFFF;
+}
+.btn-pinterest {
+	background-color: #FF6699;
+	border-color: #CCFFFF;
+}
+
+ input {
+      border: 0;
+      padding: 10px;
+      font-size: 18px;
+    }
+    input[type="submit"] {
+      background: #009999;
+      color: white;
+    }

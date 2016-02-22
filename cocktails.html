@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href='Dist/css/bootstrap.css' rel='stylesheet'>
+  <meta name="viewport" content="width=device-wide, initial-scale=1.0">
+
+
+  <title> Cocktail Creation </title>
+  <link rel='stylesheet' type='text/css' href='cocktails.css'>
+</head>
+
+<body> 
+	<h1> Cocktail Creation </h1>
+	<div> 
+		<h4> Cocktail Creation brings you hundreds of different cocktail recipes from cocktail enthusiasts all over the world! </h4>
+    <h4> Below are our favourite 3 for this week. </h4>
+    <h4> Send in your favourite recipes for a chance to be featured on Cocktail Creation next month! </h4>
+    <h4> Lots of love from your favourite mixologists - Penny, Lauren & Anna. </h4>
+  </div>
+  <div> </div>
+  <p></p>
+<div> </div>
+<p></p>
+<p></p>
+<p></p>
+
+  <div class='row'>
+  <div class='col-md-4'>
+  <img onmouseover="MouseRollover1(this)" onmouseleave="MouseOut1(this)" src='mint.jpeg'>
+    <div></div>
+  <p></p>
+     <blockquote>
+     <p> The 'Irish Affair' </p>
+     <p> This cocktail is a dreamy mixture of white rum, Baileys and white creme de cacao, with an optional sprig of mint for a cheeky kick.
+      <footer>Niamh O'Connor</footer>
+     </blockquote>
+  </div>
+
+  <div class='col-md-4'>
+  <img onmouseover="MouseRollover2(this)" onmouseleave="MouseOut2(this)" src='blackandwhite.jpeg'>
+     <blockquote>
+     <p></p> The 'Manhattan Heights' </p>
+     <p> This feisty concoction of gin, cointreau and grapefruit juice will ensure you have a time you shouldn't forget - but might not remember!
+     <footer>Louisa Ambrose</footer>
+     </blockquote>
+  </div>
+
+  <div class='col-md-4'>
+
+  <img onmouseover="MouseRollover3(this)" onmouseleave="MouseOut3(this)" src='almond.jpeg'>
+  <div></div>
+  <p></p>
+     <blockquote>
+     <p> The 'Sweet Sophistication' </p>
+     <p> This delicious cocktail is a combination of crushed almond, coconut and raspberry, with a hint of gin and prosecco to add some lift. </p> 
+      <footer>Milly Johnson</footer>
+     </blockquote>
+  </div>
+</div>
+
+
+
+<input type="email" placeholder="Your email">
+<input type="submit">
+
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<!-- Deemphasize a button by making it look like a link while maintaining button behavior -->
+<button type="button" class="btn-twitter">twitter</button>
+
+<!-- Deemphasize a button by making it look like a link while maintaining button behavior -->
+<button type="button" class="btn-facebook">facebook</button>
+
+<!-- Deemphasize a button by making it look like a link while maintaining button behavior -->
+<button type="button" class="btn-pinterest">pinterest</button>
+<p></p>
+
+<!-- This script is the wrapper which allows java script inside-->
+<script type="text/javascript">
+  function MouseRollover1(MyImage) //method to allow changing of image on hover.
+  {
+    MyImage.src = "mint copy.png";
+  }
+  function MouseOut1(MyImage)
+  {
+    MyImage.src = "mint.jpeg";
+  }
+
+  function MouseRollover2(MyImage) //method to allow changing of image on hover.
+  {
+    MyImage.src = "blackandwhite copy.png";
+  }
+  function MouseOut2(MyImage)
+  {
+    MyImage.src = "blackandwhite.jpeg";
+  }
+
+  function MouseRollover3(MyImage) //method to allow changing of image on hover.
+  {
+    MyImage.src = "almond copy.png";
+  }
+  function MouseOut3(MyImage)
+  {
+    MyImage.src = "almond.jpeg";
+  }
+  </script>
+
+</body>
+</html>
